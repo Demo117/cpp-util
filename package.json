@@ -1,16 +1,16 @@
 {
-  "name": "@capp/immotors-tools",
+  "name": "@cpp/utils",
   "version": "2.0.0",
-  "description": "immotors项目工具库",
+  "description": "cpp工具库",
   "scripts": {
     "build": "rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "http://47.101.163.231:1122/capp/FE/immotors-tools.git"
+    "url": ""
   },
   "keywords": [
-    "immotors",
+    "util",
     "tools"
   ],
   "main": "dist/index.js",
@@ -21,11 +21,8 @@
   "files": [
     "dist"
   ],
-  "author": "L",
+  "author": "chenpengpeng",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "http://10.134.81.210:8082/nexus/repository/npm-hosted/"
-  },
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/plugin-transform-runtime": "^7.16.5",
