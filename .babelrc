@@ -1,0 +1,35 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": [
+            "> 1%",
+            "not ie <= 8"
+          ]
+        },
+        "useBuiltIns": "usage",
+        "shippedProposals": true,
+        "corejs": 3
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "assumptions": {
+    "setPublicClassFields": true
+  },
+  "plugins": [
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-private-property-in-object",
+    "@babel/plugin-proposal-private-methods",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-transform-runtime"
+  ]
+}

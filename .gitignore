@@ -1,0 +1,48 @@
+/lib
+/node_modules
+/.yalc
+
+# Logs
+logs
+*.yalc
+*.sig
+*.lock
+*.log
+# *.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# compiled output
+
+dist/*
+!dist/static/
+dist/static/js
+dist/static/css
+dist/static/font
+dist/static/img
+!dist/static/dll/main.manifest.json
+!dist/static/dll/main.dll.js
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+
+.gitinore
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
